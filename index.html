@@ -393,7 +393,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+
+    <!-- MODAL -->
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon">
@@ -412,12 +414,21 @@
             </svg>
           </div>
 
-          <label class="input-title"
-            >Phone<input type="tel" class="modal-input"
-          /></label>
-          <label class="input-title"
-            >Email<input type="mail" class="modal-input"
-          /></label>
+          <label class="input-title">Phone</label>
+          <div class="input-wrap">
+            <input type="tel" class="modal-input" />
+            <svg class="input-icon">
+              <use href="./img/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <label class="input-title">Email</label>
+
+          <div class="input-wrap">
+            <input type="mail" class="modal-input" />
+            <svg class="input-icon">
+              <use href="./img/icons.svg#icon-email"></use>
+            </svg>
+          </div>
           <label class="input-title"
             >Comment<textarea
               class="modal-textarea modal-input"
