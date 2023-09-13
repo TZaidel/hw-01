@@ -1,0 +1,71 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--grey, rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  /* ABOUT */
+  .about-element-icon {
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .about-item {
+    width: 264px;
+  }
+
+  .item-title {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .item-text {
+    font-weight: 400;
+  }
+
+  /* WE DO */
+  .we-do-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .we-do {
+    padding-top: 0;
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    gap: 80px;
+  }
+}
