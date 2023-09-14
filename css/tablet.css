@@ -1,6 +1,10 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
+  }
+
+  .menu-open-btn {
+    display: none;
   }
 
   /* HEADER */
@@ -28,23 +32,8 @@
     color: var(--iris-color);
   }
 
-  .nav-link.active::before {
-    content: '';
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--iris-color);
-    position: absolute;
-    bottom: -32px;
-  }
-
   .address-wrap {
     margin-left: auto;
-  }
-
-  .address-list {
-    display: flex;
-    gap: 40px;
   }
 
   .address-link {

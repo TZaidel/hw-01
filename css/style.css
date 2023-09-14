@@ -73,11 +73,81 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav,
 .address-wrap {
   display: none;
+}
+
+/* MENU NAV */
+.menu-open-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-open-icon {
+  stroke: #000;
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 40px;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-close-btn {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.menu-item {
+  margin-bottom: 40px;
+}
+
+.menu-contact-list {
+  margin-bottom: 48px;
+}
+
+.menu-contact-item:first-child {
+  margin-bottom: 40px;
+}
+
+.menu-contact-link {
+  color: var(--iris-color);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.11;
+  margin-bottom: 40px;
+}
+
+.menu-email-link {
+  color: #434455;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.menu-social-list {
+  display: flex;
+  gap: 56px;
 }
 
 /* HERO */
@@ -556,16 +626,13 @@ body {
 .section-portfolio {
   padding-top: 96px;
 }
+
 .filtr-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
-}
-
-.filtr-item {
-  justify-content: center;
-  align-items: center;
 }
 
 .filtr-link {
@@ -596,6 +663,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: center;
 }
 
 .portfolio-item {
