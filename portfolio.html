@@ -25,7 +25,7 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="" class="nav-link active">Studio</a>
+              <a href="./index.html" class="nav-link active">Studio</a>
             </li>
             <li class="nav-item">
               <a href="./portfolio.html" class="nav-link">Portfolio</a>
@@ -62,10 +62,12 @@
           </button>
           <ul class="menu-list">
             <li class="menu-item">
-              <a href="" class="menu-link about-title">Studio</a>
+              <a href="./index.html" class="menu-link about-title">Studio</a>
             </li>
             <li class="menu-item">
-              <a href="" class="menu-link about-title">Portfolio</a>
+              <a href="./portfolio.html" class="menu-link about-title"
+                >Portfolio</a
+              >
             </li>
             <li class="menu-item">
               <a href="" class="menu-link about-title">Contacts</a>
@@ -134,11 +136,26 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img
-                  src="./img/img-1.jpg"
-                  width="360"
-                  alt="Banking App Interface Concept"
-                />
+                <picture>
+                  <source
+                    srcset="./img/img-1-desk.jpg 1x, ./img/img-1-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="./img/img-1-tab.jpg 1x, ./img/img-1-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./img/img-1-mob.jpg 1x, ./img/img-1-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./img/img-1-desk.jpg"
+                    width="396"
+                    alt="Banking App Interface Concept"
+                  />
+                </picture>
                 <p class="portfolio-item-desc">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -146,26 +163,60 @@
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Banking App Interface Concept</h2>
+                <h2 class="portfolio-item-title">
+                  Banking App Interface Concept
+                </h2>
                 <p class="item-text">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-2.jpg" width="360" alt="Cashless Payment" />
+                <picture>
+                  <source
+                    srcset="./img/img-2-desk.jpg 1x, ./img/img-2-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-2-tab.jpg 1x, ./img/img-2-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-2-mob.jpg 1x, ./img/img-2-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-2-desk.jpg"
+                    width="396"
+                    alt="Cashless Payment"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Ipsa, modi.
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Cashless Payment</h2>
+                <h2 class="portfolio-item-title">Cashless Payment</h2>
                 <p class="item-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-3.jpg" width="360" alt="Meditaion App" />
+                <picture>
+                  <source
+                    srcset="./img/img-3-desk.jpg 1x, ./img/img-3-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-3-tab.jpg 1x, ./img/img-3-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-3-mob.jpg 1x, ./img/img-3-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-3-desk.jpg"
+                    width="396"
+                    alt="Meditation App"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Exercitationem quis modi est, perspiciatis molestias odit
@@ -173,30 +224,58 @@
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Meditaion App</h2>
+                <h2 class="portfolio-item-title">Meditaion App</h2>
                 <p class="item-text">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-4.jpg" width="360" alt="Taxi Service" />
+                <picture>
+                  <source
+                    srcset="./img/img-4-desk.jpg 1x, ./img/img-4-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-4-tab.jpg 1x, ./img/img-4-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-4-mob.jpg 1x, ./img/img-4-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-4-desk.jpg"
+                    width="396"
+                    alt="Taxi Service"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                   reiciendis eligendi hic laudantium fugit quidem.
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Taxi Service</h2>
+                <h2 class="portfolio-item-title">Taxi Service</h2>
                 <p class="item-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img
-                  src="./img/img-5.jpg"
-                  width="360"
-                  alt="Screen Illustrations"
-                />
+                <picture>
+                  <source
+                    srcset="./img/img-5-desk.jpg 1x, ./img/img-5-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-5-tab.jpg 1x, ./img/img-5-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-5-mob.jpg 1x, ./img/img-5-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-5-desk.jpg"
+                    width="396"
+                    alt="Screen Illustrations"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                   odit quaerat, corrupti aspernatur possimus nemo architecto.
@@ -205,13 +284,29 @@
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Screen Illustrations</h2>
+                <h2 class="portfolio-item-title">Screen Illustrations</h2>
                 <p class="item-text">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-6.jpg" width="360" alt="Online Courses" />
+                <picture>
+                  <source
+                    srcset="./img/img-6-desk.jpg 1x, ./img/img-6-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-6-tab.jpg 1x, ./img/img-6-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-6-mob.jpg 1x, ./img/img-6-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-6-desk.jpg"
+                    width="396"
+                    alt="Online Courses"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repellendus assumenda doloribus hic magni aperiam
@@ -223,30 +318,58 @@
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Online Courses</h2>
+                <h2 class="portfolio-item-title">Online Courses</h2>
                 <p class="item-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img
-                  src="./img/img-7.jpg"
-                  width="360"
-                  alt="Instagram Stories Concept"
-                />
+                <picture>
+                  <source
+                    srcset="./img/img-7-desk.jpg 1x, ./img/img-7-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-7-tab.jpg 1x, ./img/img-7-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-7-mob.jpg 1x, ./img/img-7-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-7-desk.jpg"
+                    width="396"
+                    alt="Instagram Stories Concept"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
                   delectus nulla autem ut eaque mollitia!
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Instagram Stories Concept</h2>
+                <h2 class="portfolio-item-title">Instagram Stories Concept</h2>
                 <p class="item-text">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-8.jpg" width="360" alt="Organic Food" />
+                <picture>
+                  <source
+                    srcset="./img/img-8-desk.jpg 1x, ./img/img-8-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-8-tab.jpg 1x, ./img/img-8-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-8-mob.jpg 1x, ./img/img-8-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-8-desk.jpg"
+                    width="396"
+                    alt="Organic Food"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quasi ipsa a minima nostrum fugiat sapiente architecto qui
@@ -260,20 +383,36 @@
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Organic Food</h2>
+                <h2 class="portfolio-item-title">Organic Food</h2>
                 <p class="item-text">Web Site</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-desc-wrap">
-                <img src="./img/img-9.jpg" width="360" alt="Fresh Coffee" />
+                <picture>
+                  <source
+                    srcset="./img/img-9-desk.jpg 1x, ./img/img-9-desk-2x.jpg 2x"
+                    media="(min-width: 1158px)" />
+
+                  <source
+                    srcset="./img/img-9-tab.jpg 1x, ./img/img-9-tab-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="./img/img-9-mob.jpg 1x, ./img/img-9-mob-2x.jpg 2x"
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./img/img-9-desk.jpg"
+                    width="396"
+                    alt="Fresh Coffee"
+                /></picture>
                 <p class="portfolio-item-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
                   dignissimos.
                 </p>
               </div>
               <div class="portfolio-text-wrap">
-                <h2 class="item-title">Fresh Coffee</h2>
+                <h2 class="portfolio-item-title">Fresh Coffee</h2>
                 <p class="item-text">Web Site</p>
               </div>
             </li>

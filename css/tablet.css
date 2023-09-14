@@ -124,4 +124,21 @@
   .footer-input {
     width: 264px;
   }
+
+  /* PORTFOLIO */
+  .filtr-list {
+    justify-content: center;
+  }
+
+  .portfolio-list {
+    justify-content: start;
+  }
+
+  .portfolio-item {
+    width: 356px;
+  }
+
+  .portfolio-text-wrap {
+    width: 356px;
+  }
 }

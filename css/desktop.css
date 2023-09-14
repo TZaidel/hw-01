@@ -82,4 +82,14 @@
   .footer-container {
     gap: 80px;
   }
+
+  /* PORTFOLIO */
+
+  .portfolio-item {
+    width: 360px;
+  }
+
+  .portfolio-text-wrap {
+    width: 360px;
+  }
 }
